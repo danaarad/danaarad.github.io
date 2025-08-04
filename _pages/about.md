@@ -30,4 +30,4 @@ I am passionate about advancing women in STEM and research. I volunteer with <a 
 I'm also part of <a href="https://cs4people.cs.technion.ac.il/%D7%99%D7%95%D7%96%D7%9E%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/%D7%A7%D7%94%D7%99%D7%9C%D7%AA-%D7%94%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%95%D7%AA-%D7%A9%D7%9C-%D7%94%D7%A4%D7%A7%D7%95%D7%9C%D7%98%D7%94-%D7%9C%D7%9E%D7%93%D7%A2%D7%99-%D7%94%D7%9E%D7%97/">She-S</a>, the CS faculty women’s organization.
 Additionally, I lead NLP-IL's <a href="https://www.youtube.com/playlist?list=PLN5QgHTG8IMIJf7eqkCqymDfr8BQBtgIC">vision-language club</a>.
 
-If you find any of the above interesting, feel free to reach out!
+<b> If you find any of the above interesting, feel free to reach out! </b>
