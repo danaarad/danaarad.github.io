@@ -7,7 +7,6 @@
   volume       = {abs/2505.20063},
   year         = {2025},
   url          = {https://doi.org/10.48550/arXiv.2505.20063},
-  doi          = {10.48550/ARXIV.2505.20063},
   eprinttype    = {arXiv},
   eprint       = {2505.20063},
   timestamp    = {Fri, 27 Jun 2025 21:43:42 +0200},
@@ -15,7 +14,7 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   bibtex_show  = {true},
   preview      = {saes_steering.png},
-  abstract     = {Sparse Autoencoders (SAEs) have been proposed as an unsupervised approach to learn a decomposition of a model’s latent space. This enables useful applications, such as fine-grained steering of model outputs without requiring labeled data. Current steering methods identify SAE features to target by analyzing the input tokens that activate them. However, recent work has highlighted that activations alone do not fully describe the effect of a feature on the model’s output. In this work we draw a distinction between two types of features: input features, which mainly capture patterns in the model’s input, and output features, those that have a human-understandable effect on the model’s output. We propose input and output scores to characterize and locate these types of features, and show that high values for both scores rarely co-occur in the same features. These findings have practical implications: After filtering out features with low output scores, steering with SAEs results in a 2–3x improvement, matching the performance of existing supervised methods.},
+  arxiv = {https://arxiv.org/abs/2505.20063},
   selected={true}
 }
 
@@ -30,15 +29,15 @@
   volume       = {abs/2506.09047},
   year         = {2025},
   url          = {https://doi.org/10.48550/arXiv.2506.09047},
-  doi          = {10.48550/ARXIV.2506.09047},
   eprinttype    = {arXiv},
   eprint       = {2506.09047},
   timestamp    = {Tue, 08 Jul 2025 20:40:20 +0200},
   biburl       = {https://dblp.org/rec/journals/corr/abs-2506-09047.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   preview      = {vlm_different.png},
-  abstract     = {Vision-Language models (VLMs) show impressive abilities to answer questions on visual inputs (e.g., counting objects in an image), yet demonstrate higher accuracies when performing an analogous task on text (e.g., counting words in a text). We investigate this accuracy gap by identifying and comparing the circuits---the task-specific computational sub-graphs---in different modalities. We show that while circuits are largely disjoint between modalities, they implement relatively similar functionalities: the differences lie primarily in processing modality-specific data positions (an image or a text sequence). Zooming in on the image data representations, we observe they become aligned with the higher-performing analogous textual representations only towards later layers, too late in processing to effectively influence subsequent positions. To overcome this, we patch the representations of visual data tokens from later layers back into earlier layers. In experiments with multiple tasks and models, this simple intervention closes a third of the performance gap between the modalities, on average. Our analysis sheds light on the multi-modal performance gap in VLMs and suggests a training-free approach for reducing it.},
-  selected={true}
+  selected={true},
+  arxiv = {https://arxiv.org/abs/2506.09047},
+  website = {https://technion-cs-nlp.github.io/vlm-circuits-analysis/}
 }
 
 @article{DBLP:journals/corr/abs-2504-13151,
@@ -70,7 +69,6 @@
   volume       = {abs/2504.13151},
   year         = {2025},
   url          = {https://doi.org/10.48550/arXiv.2504.13151},
-  doi          = {10.48550/ARXIV.2504.13151},
   eprinttype    = {arXiv},
   eprint       = {2504.13151},
   timestamp    = {Thu, 22 May 2025 21:00:35 +0200},
@@ -79,8 +77,9 @@
   bibtex_show  = {true},
   preview      = {mib.png},
   abbr         = {ICML},
-  abstract     = {How can we know whether new mechanistic interpretability methods achieve real improvements? In pursuit of meaningful and lasting evaluation standards, we propose MIB, a benchmark with two tracks spanning four tasks and five models. MIB favors methods that precisely and concisely recover relevant causal pathways or specific causal variables in neural language models. The circuit localization track compares methods that locate the model components - and connections between them - most important for performing a task (e.g., attribution patching or information flow routes). The causal variable localization track compares methods that featurize a hidden vector, e.g., sparse autoencoders (SAEs) or distributed alignment search (DAS), and locate model features for a causal variable relevant to the task. Using MIB, we find that attribution and mask optimization methods perform best on circuit localization. For causal variable localization, we find that the supervised DAS method performs best, while SAE features are not better than neurons, i.e., standard dimensions of hidden vectors. These findings illustrate that MIB enables meaningful comparisons of methods, and increases our confidence that there has been real progress in the field.},
-  selected={true}
+  selected={true},
+  arxiv = {https://arxiv.org/abs/2504.13151}
+
 }
 
 @inproceedings{DBLP:conf/acl/TokerOVAB24,
@@ -100,15 +99,15 @@
   publisher    = {Association for Computational Linguistics},
   year         = {2024},
   url          = {https://doi.org/10.18653/v1/2024.acl-long.524},
-  doi          = {10.18653/V1/2024.ACL-LONG.524},
   timestamp    = {Tue, 24 Sep 2024 10:55:49 +0200},
   biburl       = {https://dblp.org/rec/conf/acl/TokerOVAB24.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   bibtex_show  = {true},
   preview      = {diffusion_lens.jpg},
   abbr         = {ACL},
-  abstract     = {Text-to-image diffusion models (T2I) use a latent representation of a text prompt to guide the image generation process. However, the process by which the encoder produces the text representation is unknown. We propose the Diffusion Lens, a method for analyzing the text encoder of T2I models by generating images from its intermediate representations. Using the Diffusion Lens, we perform an extensive analysis of two recent T2I models. Exploring compound prompts, we find that complex scenes describing multiple objects are composed progressively and more slowly compared to simple scenes; Exploring knowledge retrieval, we find that representation of uncommon concepts requires further computation compared to common concepts, and that knowledge retrieval is gradual across layers. Overall, our findings provide valuable insights into the text encoder component in T2I pipelines.},
-  selected={true}
+  selected={true},
+  arxiv = {https://arxiv.org/abs/2403.05846},
+  website = {https://tokeron.github.io/DiffusionLensWeb/}
 }
 
 @inproceedings{DBLP:conf/naacl/AradOB24,
@@ -127,15 +126,15 @@
   publisher    = {Association for Computational Linguistics},
   year         = {2024},
   url          = {https://doi.org/10.18653/v1/2024.naacl-long.140},
-  doi          = {10.18653/V1/2024.NAACL-LONG.140},
   timestamp    = {Thu, 29 Aug 2024 17:13:57 +0200},
   biburl       = {https://dblp.org/rec/conf/naacl/AradOB24.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   bibtex_show  = {true},
   preview      = {refact.jpg},
   abbr         = {NAACL},
-  abstract     = {Text-to-image models are trained on extensive amounts of data, leading them to implicitly encode factual knowledge within their parameters. While some facts are useful, others may be incorrect or become outdated (e.g., the current President of the United States). We introduce ReFACT, a novel approach for editing factual knowledge in text-to-image generative models. ReFACT updates the weights of a specific layer in the text encoder, only modifying a tiny portion of the model’s parameters (0.24%), and leaving the rest of the model unaffected. We empirically evaluate ReFACT on an existing benchmark, alongside RoAD, a newly curated dataset. ReFACT achieves superior performance in terms of generalization to related concepts while preserving unrelated concepts. Furthermore, ReFACT maintains image generation quality, making it a valuable tool for updating and correcting factual information in text-to-image models.},
-  selected={true}
+  selected={true},
+  arxiv = {https://arxiv.org/abs/2306.00738},
+  website = {https://technion-cs-nlp.github.io/ReFACT/}
 }
 
 @inproceedings{DBLP:conf/edbt/AradDF24,
@@ -155,7 +154,6 @@
   publisher    = {OpenProceedings.org},
   year         = {2024},
   url          = {https://doi.org/10.48786/edbt.2024.60},
-  doi          = {10.48786/EDBT.2024.60},
   timestamp    = {Mon, 10 Mar 2025 16:32:46 +0100},
   biburl       = {https://dblp.org/rec/conf/edbt/AradDF24.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
@@ -177,7 +175,6 @@
   publisher    = {{ACM}},
   year         = {2022},
   url          = {https://doi.org/10.1145/3511808.3557204},
-  doi          = {10.1145/3511808.3557204},
   timestamp    = {Wed, 19 Oct 2022 17:09:02 +0200},
   biburl       = {https://dblp.org/rec/conf/cikm/AradDF22.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
